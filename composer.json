@@ -1,0 +1,44 @@
+{
+  "name": "gugiman/oauth2-ebay",
+  "description": "Ebay OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dennis Steffen",
+      "email": "dennis.steffen@osnanet.de",
+      "homepage": "https://github.com/Gugiman"
+    }
+  ],
+  "homepage": "https://github.com/Gugiman/oauth2-ebay",
+  "keywords": [
+    "php",
+    "ebay",
+    "api",
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authentication"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "league/oauth2-client": "^2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5.39",
+    "mockery/mockery": "^1.6.12",
+  },
+  "autoload": {
+    "psr-4": {
+      "Gugiman\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gugiman\\OAuth2\\Client\\Test\\": "tests/src/"
+    }
+  },
+   "scripts": {
+     "test": "phpunit"
+   }
+}
