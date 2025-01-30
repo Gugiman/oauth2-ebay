@@ -5,7 +5,7 @@ This package provides Ebay OAuth 2.0 support for the PHP League's [OAuth 2.0 Cli
 ## Installation
 
 ```
-composer require gugiman/oauth2-Ebay
+composer require gugiman/oauth2-ebay
 ```
 
 ## Usage
